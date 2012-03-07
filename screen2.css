@@ -1,0 +1,583 @@
+@charset "utf-8";
+
+/*
+Design by NodeThirtyThree <http://www.nodethirtythree.com>
+Published by Free CSS Templates <http://www.freecsstemplates.org/>
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background: #FFFFFF url(http://joekur.com/images/img01.gif) repeat-x;*/
+	background: #FFFFFF url(http://joekur.com/images/blackBanner.gif) repeat-x;
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.625;
+	color: #4A5157;
+}
+
+h1, h2, h3 {
+	color: #292929;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 30px;
+}
+
+h1.smLineHt {
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 24px;
+	color: #292929;
+}
+
+h2.subtitle {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	color: gray;
+	display: inline;
+	
+	padding-right: 25px;
+	padding-top: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+h3 {
+	font-size: 13px;
+	color: #292929;
+}
+
+p, ul, ol {
+	margin-bottom: 2em;
+	text-align: justify;
+	line-height: 200%;
+}
+
+p {
+}
+
+ul {
+}
+
+ol {
+}
+
+a {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+}
+
+img.right {
+}
+
+.tn img {
+	border: 8px solid #F5F5F5;
+}
+
+hr {
+	display: none;
+}
+
+/* Logo */
+
+#logo {
+	width: 874px;
+	height: 147px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#logo h1 {
+	float: left;
+	padding: 55px 30px 0 0;
+	height: 77px;
+	width:350px;
+	/*background: url(http://joekur.com/images/pac_header.png) no-repeat 100px 50px;*/
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: -2px;
+}
+
+#logo h2 {
+	float: right;
+	padding: 98px 0 0 0;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo #hexFader {
+	position: absolute;
+	width: 365px;
+	height: 105px;
+	z-index: 2;
+	left: 530px;
+	top: 20px;
+	background: url(http://joekur.com/images/hexFader.png) no-repeat;
+}
+
+
+/* Menu */
+
+#menu {
+	width: 919px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0;
+	padding: 5px 30px 0 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	z-index: 10;
+	/*font-family: "Harrington", Arial, Helvetica, sans-serif;*/
+	
+	/*-moz-border-radius: 10px;
+	border-radius: 10px;*/
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #B7B7B7;
+	/*background: #505050;*/
+}
+
+#menu .active a {
+	/*background: #ff7202 url(http://joekur.com/images/img03.gif) repeat-x left bottom;
+	color: black;*/
+}
+
+#navTri
+{
+	width: 0;
+	height: 0;
+	border-width: 14px;
+	border-color: transparent transparent white transparent;
+	/*border-color: transparent transparent #FF4800 transparent;*/
+	border-style: solid;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	visibility: hidden;
+	z-index: 5;
+}
+
+#navTri #base {
+	height: 1px;
+	width: 40px;
+	background: #FF4800;
+	position: absolute;
+	visibility: hidden;
+	z-index: 5;
+	top: 9px;
+	left: -20px;
+}
+
+/* Page */
+
+#bg {
+	background: url(http://joekur.com/images/img04.gif) no-repeat center top;
+}
+
+#bg_full {
+	/*background: url(http://joekur.com/images/img04_full.gif) no-repeat center top;*/
+	background: url(http://joekur.com/images/backgroundImg.gif) no-repeat center top;
+}
+
+#page {
+	width: 918px;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #C9C9C9;
+	border-width: 1px;
+	background:white;
+}
+
+/* Content */
+
+.content {
+	margin: 50px 80px;
+	position: relative;
+}
+
+
+
+#cont {
+	/*float: left;*/
+	width: 625px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+
+#cont h1 {
+	margin: 20px 0 10px 0;
+	/*padding-left: 33px;*/
+	/*background: url(images/img07.gif) no-repeat left center;*/
+}
+
+#cont .content {
+	padding-left: 0px;
+}
+
+#description p {
+	line-height: normal;
+}
+
+/* Posts */
+
+.post h1.title {
+	margin: 45px 0 20px 0;
+	/*padding-left: 33px;*/
+	/*background: url(images/img07.gif) no-repeat left center;*/
+}
+
+.post h2.title {
+	margin: 40px 0 25px 0;
+	/*padding-left: 33px;*/
+	/*background: url(images/img07.gif) no-repeat left center;*/
+}
+
+.post .title a {
+	text-decoration: none;
+	color: #292929;
+}
+
+.post .entry {
+	/*padding-left: 32px;*/
+}
+
+.post ul, .post ol {
+	margin-left: 3em;
+}
+
+.post ul {
+	list-style-type: square;
+}
+
+.post ol {
+	list-style-type: decimal;
+}
+
+/* Front page */
+
+.bottomSection
+{
+height: 220px;
+width: 100%;
+padding: 40px 0px;
+background: #262626;
+position: relative;
+color: white;
+
+box-shadow: inset 0px 0px 18px rgba(0, 0, 0, 1);
+-moz-box-shadow: inset 0px 0px 18px rgba(0, 0, 0, 1);
+-webkit-box-shadow: inset 0px 0px 18px rgba(0, 0, 0, 1);
+}
+
+
+/* Bottom Section */
+
+.bottomSection .leftHalf
+{
+/*border-right-style: solid;
+border-right-color: black;
+border-right-width: 2px;*/
+float: left;
+height: 220px;
+width: 220px;
+
+}
+
+.bottomSection .rightHalf
+{
+/*border-left-style: solid;
+border-left-color: #7C7C7C;
+border-left-width: 1px;*/
+float: right;
+height: 220px;
+width: 230px;
+}
+
+.bottomSection .innerContent
+{
+width: 220px;
+margin-top: 30px;
+text-align: left;
+}
+
+.leftHalf .innerContent
+{
+margin-left: 55px;
+}
+
+.rightHalf .innerContent
+{
+margin-right: 55px;
+}
+
+.bottomSection .middleText, .bottomSection .middleText2
+{
+position: absolute;
+font-size: 19pt !important;
+}
+
+.bottomSection .middleText
+{
+top: 100px;
+left: 330px;
+}
+
+.bottomSection .middleText2
+{
+top: 140px;
+left: 380px;
+}
+
+.bottomSection .middleText2 a
+{
+color: green;
+cursor: pointer;
+}
+
+.bottomSection h1
+{
+font-size: 18px;
+font-family: "GameOver", Helvetica, Arial, sans-serif;
+margin-bottom: 10px;
+}
+
+.leftHalf h1
+{
+color: #FF3700;
+}
+
+.rightHalf h1
+{
+color: #004fff;
+}
+
+ul.noBullets
+{
+list-style-type: none;
+margin: 0;
+line-height: normal;
+}
+
+.leftHalf li
+{
+	color: #2463FF;
+}
+
+.rightHalf li
+{
+	color: #FF3700;
+}
+
+.bottomSection ul a
+{
+color: white;
+text-align: left !important;
+padding: 6px 0;
+display: block;
+}
+
+.noBullets a:hover
+{
+	text-decoration: none;
+	font-size: 130%;
+}
+
+.leftHalf a:hover
+{
+color: #2463FF;
+}
+
+.rightHalf a:hover
+{
+color: #FF3700;
+}
+
+.bottomSection .sunriseBreak, .bottomSection .sunriseBreakReverse
+{
+position: absolute;
+width: 100px;
+height: 220px;
+}
+
+.bottomSection .sunriseBreak
+{
+top: 40px;
+left: 220px;
+background: url(http://joekur.com/images/sunriseBreak.png) no-repeat;
+}
+
+.bottomSection .sunriseBreakReverse
+{
+top: 40px;
+right: 220px;
+background: url(http://joekur.com/images/sunriseBreak_reverse.png) no-repeat;
+}
+
+.bottomSection .joekurLETO
+{
+width: 307px;
+height: 106px;
+background: url(http://joekur.com/images/joekur_footer.png) no-repeat;
+position: absolute;
+left: 315px;
+top: 64px;
+}
+
+.blueArrow
+{
+position: absolute;
+left: -47px;
+top: -28px;
+width: 92px;
+height: 83px;
+background: url(http://joekur.com/images/blueArrow.png);
+}
+
+.orangeArrow
+{
+position: absolute;
+right: -46px;
+bottom: -15px;
+width: 92px;
+height: 84px;
+background: url(http://joekur.com/images/orangeArrow.png);
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 214px;
+	padding: 20px 1px 20px 20px;
+	
+	border-left-style: dotted;
+	border-left-width: 1px;
+	border-left-color: orange;
+	margin-top: 20px;
+}
+
+#sidebar a {
+	color: #4A5157;
+}
+
+.box {
+}
+
+.box .title {
+	height: 25px; /*27px*/
+	padding: 6px 0 0 34px;
+	/*background: #ff7202 url(http://joekur.com/images/img05.gif) no-repeat;*/
+	background: #ff7202 url(http://joekur.com/images/img03.gif) repeat-x left bottom;
+	font-size: 17px;
+	color: black;
+}
+
+.box .content {
+	padding: 26px;
+	background: url(http://joekur.com/images/img06.gif) repeat-x;
+}
+
+.box ul {
+	list-style: none;
+	line-height: normal;
+}
+
+.box ul li {
+	margin-bottom: 13px;
+	font-size: 12px;
+}
+
+.box small {
+	font-size: 10px;
+	color: #808C96;
+}
+
+/* Footer */
+
+#footer {
+	padding: 35px 0;
+	background: url(http://joekur.com/images/img08.gif) no-repeat center top;
+	font-size: 12px;
+}
+
+#footer p {
+	text-align: center;
+	background: url(http://joekur.com/images/JK_initials.gif) no-repeat center top;
+	height: 64px;
+	padding-top: 20px;
+	color: #646464;
+}
+
+
+/* FONTS */
+
+@font-face {
+	font-family: "GameOver";  
+	src: url(/fonts/LVDCGO.eot); /* IE */  
+	src: url(/fonts/LVDCGO.ttf) format("truetype"); /* non-IE */  	
+}
+
+/* Selection */
+:selection {
+	background:#FF4800;
+	color:#fff;
+}
+::-moz-selection {
+	background:#FF4800;
+	color:#fff;
+}
+::-webkit-selection {
+	background:#FF4800;
+	color:#fff;
+}

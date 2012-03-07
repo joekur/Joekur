@@ -1,0 +1,146 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background: #E2E9EC; 
+	background-image: -webkit-radial-gradient(25% 25%, circle cover, white 0%, #E2E9EC  50%);
+	background-image: -moz-radial-gradient(25% 25%, circle cover, white 0%, #E2E9EC  50%);
+	color: #004a91;
+	font:  14px/16px "PTSansRegular", Arial, "Sans-Serif";
+	min-height: 100%;
+	text-shadow: 0px 1px 0 #fff;
+	/*border-radius: 15px;*/
+}
+
+#header {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 673px;
+}
+
+#footer {
+	margin: 50px auto;
+	padding-top: 10px;
+	width: 700px;
+	height: 100px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #444444;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 50px;
+	width: 500px;
+}
+
+#query {
+	width: 480px;
+	font-size: 14pt;
+	border-style: none;
+}
+
+#query_holder {
+	clear: both;
+	padding: 10px;
+	background: white;
+	width: 480px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#translation_holder {
+	clear: both;
+	width: 480px;
+	height: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	background: white;
+	padding: 10px;
+	
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#translation {
+	font-size: 14pt;
+	color: black;
+}
+
+/* button for language selection */
+
+a.lnBut {
+	padding: 5px;
+	margin: 5px;
+	font-size: 13pt;
+	background: #D6D4D4;
+	float: left;
+	text-shadow: none;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+a.lnBut:hover {
+	background: #7C7C7C;
+}
+
+a.lnBut.active {
+	background: orange;
+}
+
+/* ARROW BUTTON */
+.arrow {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+}
+
+.arrow:hover {
+	cursor: pointer;
+}
+
+.arrow-bod {
+	margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-right: 50px solid #E17640;
+    border-top: 20px solid #E17640;
+}
+
+.arrow-down {
+	margin:0 auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #E17640;
+}
+
+/* AUTOCOMPLETE */
+
+.autocomplete-w1 {
+	background:url(img/shadow.png) no-repeat bottom right;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:8px 0 0 6px;
+	/* IE6 fix: */
+	_background:none;
+	_margin:0;
+}
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+

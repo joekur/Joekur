@@ -1,0 +1,10 @@
+_*
+.htaccess
+blog/
+cgi-bin/
+error_log
+sitemap.xml
+sitemap.xml.gz
+webmitt.com/
+garciadesign.me/
+cake/

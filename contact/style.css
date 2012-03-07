@@ -1,0 +1,26 @@
+.contact
+{
+width:426px;
+height:120px;
+color: black;
+background-repeat: no-repeat;
+margin-left: 240px;
+padding-top: 53px;
+font-family: Sans, sans-serif;
+font-size: 18pt;
+}
+
+#phone
+{
+background-image: url('contactPhoneNoText.png');
+padding-left: 205px;
+margin-top: 80px;
+}
+
+#email
+{
+background-image: url('contactEmailNoText.png');
+padding-left: 180px;
+margin-bottom: 40px;
+}
+

@@ -1,0 +1,97 @@
+#container {
+	width: 800px;
+	margin: 20px auto;
+	background: #F5F5F5;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+}
+
+#wordshelf {
+	height: 45px;
+	width: 720px;
+	margin: 40px;
+	padding-top: 20px;
+	background: #CCCCCC;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555555;
+}
+
+.droppableWord {
+	display: inline;
+	padding: 10px 20px;
+	background: white;
+	font-size: 14pt;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 5px 5px #888;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.wordholder {
+	display: inline;
+	margin: 20px 0 20px 20px;
+}
+
+.droppableWord:hover {
+	background: #ff8e8e;
+	border-color: #7f0000;
+	z-index: 999;
+}
+
+ol.sentenceList {
+	line-height: 100%;
+	font-size: 14pt;
+	list-style-type: none;
+	padding: 0;
+}
+ol.sentenceList li {
+	padding: 20px 0 20px 20px;
+}
+ol.sentenceList li:nth-child(odd) {
+	background: #ffdddd;
+}
+ol.sentenceList li:nth-child(even) {
+	background: #c6ffd4;
+}
+
+.blankWord, .filledWord {
+	display: inline-block;
+	vertical-align: middle;
+	background: white;
+	margin: 0px 5px;
+	
+	border-width: 2px;
+	border-color: gray;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	position: relative;
+	top: -3px;
+	z-index: 1;
+}
+
+.blankWord {
+	width: 120px;
+	height: 30px;
+	border-style: dashed;
+}
+
+.filledWord {
+	padding: 5px 10px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.blankWordHovered {
+	border-style: solid;
+}
+
+
+h1 {
+	margin: 0; padding: 0;
+}

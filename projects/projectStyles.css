@@ -1,0 +1,129 @@
+.projCategory {
+	width: 700px;
+	background: #343434;
+	margin: 80px auto;
+	position: relative;
+	
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-right-radius: 0px;
+	border-style: solid;
+	border-color: #343434;
+	border-width: 1px;
+}
+
+.categoryTitle {
+	position: absolute;
+	left: -1px;
+	top: -30px;
+	padding: 0px 20px 10px 20px;
+	
+	/*font-family: "Cooper Black";
+	color: #FFFFFF;*/
+	
+	
+	background: #343434;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	border-style: solid;
+	border-color: #343434;
+	border-width: 1px;
+}
+
+.categoryTitle h1 {
+	color: white;
+	font: 30px Century Gothic, sans serif;
+	padding-top: 10px;
+	text-shadow: 2px 2px 3px black;
+}
+
+.projImage {
+	margin: 40px auto;
+	border-style: inset;
+	border-color: white;
+	border-width: 2px;
+	display: block;
+	width: 600px;
+	height: 150px;
+	position: relative;
+	z-index: 10;
+}
+.projImage:hover
+{
+/*border-color: #f95e00;*/
+}
+
+.projDesc {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	left: 0;
+	bottom: 0;
+	z-index: -100;
+}
+
+a.projImage:hover {
+	text-decoration: none;
+}
+
+.descContainer {
+	background: #111111;
+	opacity: 0.7;
+	height: 100%;
+	width: 100%;
+	z-index: 20;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.projDesc h2 {
+	position: absolute;
+	padding: 0;
+	opacity: 1;
+	z-index: 30;
+	
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	
+	top: 5px;
+	left: 10px;
+	
+	font: 23px "Trebuchet MS", sans-serif;
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
+.projDesc h2:hover {
+	text-decoration: none;
+}
+
+a p.description {
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 30;
+	margin: 0;
+	padding: 0;
+	
+	color: white;
+	line-height: 120%;
+	font-family: Trebuchet MS, sans;
+}
+
+#lazerHockeyImg {
+	background: url('img/lazerHockey_stacked.gif') bottom;
+}
+
+#pacmanImg {
+	background: url('img/pacman_stacked.gif') bottom;
+}
+
+#discoImg {
+	background: url('img/discotective_basic.gif') no-repeat;
+}

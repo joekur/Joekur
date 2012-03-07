@@ -1,0 +1,152 @@
+
+#bio
+{
+background: white;
+width: 350px;
+height: 400px;
+position: absolute;
+top: -3px;
+left: 500px;
+font-size: 13pt;
+}
+
+#top_part
+{
+position:relative;
+margin-top: 60px;
+}
+
+#networks
+{
+display: inline;
+position: absolute;
+margin-top: 50px;
+right: 100px;
+}
+
+#networks a
+{
+text-decoration: none;
+}
+
+#resumeBox
+{
+position: absolute;
+right: 50px;
+width: 150px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding: 20px;
+border-style: solid;
+}
+
+#resumeBox ul
+{
+margin-left: 20px;
+}
+
+
+
+/* PHOTO FRAME */
+
+#pictureframe
+{
+	position: relative;
+	height: 600px;
+	width: 500px;
+	margin-top: 30px;
+}
+
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:500px;
+	height:550px;
+	top:-3px;
+	left:0px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:12px;
+	left:60px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:380px;
+	overflow:hidden;
+	position:absolute;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container img {
+	width:380px;
+	height:480px;
+	display:block;
+}
+  
+  
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:56px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}

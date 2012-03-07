@@ -1,0 +1,185 @@
+.header
+{
+font-family:"DESTINE",Helvetica,sans-serif;
+font-size:30pt;
+background:#B8F7FC url("erica_header.png");
+width:1110px;
+height: 290px;
+margin-bottom:30px;
+/*padding:10px;*/
+border-style:dotted;
+border-color:#CEDCDE;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+
+
+body
+{
+font-family:calibri,Helvetica,sans-serif;
+}
+
+
+.topdiv
+{
+background:white;
+}
+
+.pacman_container
+{
+border-style:dotted;
+border-color:#CEDCDE;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+
+.content
+{
+}
+
+
+.game_description
+{
+border-style:dotted;
+border-color:#CEDCDE;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background: #FFB55A;
+padding: 30px;
+font-size: 13pt !important;
+margin-top: 20px;
+width: 619px;
+}
+
+
+.right_col
+{
+float:left;
+width:400px;
+border-style:dotted;
+border-color:#CEDCDE;
+margin-bottom:30px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background:#B8F7FC;
+}
+
+.hx:first-child{
+-moz-border-radius-topleft: 13px;
+border-top-left-radius: 13px;
+-moz-border-radius-topright: 13px;
+border-top-right-radius: 13px;
+}
+
+.hx
+{
+font-family:"DESTINE",Helvetica,sans-serif;
+font-size:22pt;
+text-align:center;
+padding-top:24px;
+width:400px;
+height:54px;
+float:left;
+background:#B8F7FC;
+}
+
+.right_col_content
+{
+width:400px;
+float:left;
+background:#E8FFFC;
+}
+
+.right_col_content:last-child
+{
+-moz-border-radius-bottomleft: 13px;
+border-bottom-left-radius: 13px;
+-moz-border-radius-bottomright: 13px;
+border-bottom-right-radius: 13px;
+}
+
+#stats
+{
+	min-height: 105px;
+	/*padding-top: 20px;*/
+	text-align: center;
+}
+
+#statsInner
+{
+	margin: 20px 0;
+}
+
+.hiscore
+{
+	margin:15px;
+	padding:10px;
+	
+	border-style:solid;
+	border-color:orange;
+	font-size: 12pt !important;	
+}
+
+.hiscore .name {
+	float: left;
+	width: 191px;
+}
+
+.hiscore .time {
+	float: left;
+	width: 149px;
+	text-align: right;
+}
+
+.hiscore .comment {
+	clear: both;
+}
+
+.hiscore .classImg
+{
+	float: right;
+	margin-bottom: 10px;
+}
+
+#highscores
+{
+	min-height: 105px;
+}
+
+#highscores .hiscore:first-child
+{
+	background: #F0D477;
+}
+
+#rec_activity
+{
+	min-height: 105px;
+}
+
+.classImg img
+{
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* LOADING IMG */
+.loadGif
+{
+	background: url('ajax-loader.gif');
+	height: 24px;
+	width: 24px;
+	margin: auto auto;
+}
+
+
+
+/* FONTS */
+@font-face {
+font-family: "DESTINE";  
+src: url(ARDESTINE.eot); /* IE */  
+src: local("AR DESTINE"), url(ARDESTINE.ttf) format("truetype"); /* non-IE */  	
+}
+
+

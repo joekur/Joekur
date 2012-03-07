@@ -1,0 +1,116 @@
+ul.downloads {
+    margin-left: 40px;
+}
+
+#discoD {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(img/discoLogo.png) no-repeat;
+	height: 166px;
+	width: 150px;
+}
+
+#sheetmusicframe {
+	margin: 50px auto 30px auto;
+	height: 570px;
+	width: 820px;
+	
+	background: url(img/frame.png) no-repeat;
+	position: relative;
+	left: -30px;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:500px;
+	height:550px;
+	top:-3px;
+	left:0px;
+}
+
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:60px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:700px;
+	overflow:hidden;
+	position:absolute;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container img {
+	width:700px;
+	height:500px;
+	display:block;
+}
+  
+  
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:56px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
