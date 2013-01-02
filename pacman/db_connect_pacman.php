@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $user = "joekurco";
-$password = "wmscajr2";
+$password = "oats_2122";
 $dbName = "joekurco_pacman";
 
 mysql_connect($host, $user, $password);
